@@ -1,5 +1,22 @@
 # @tabler/preview
 
+## 1.8.0-next.0
+
+### Minor Changes
+
+- 9067616: Added a delete repository modal with typed confirmation to the modals preview page.
+- d7a5a2b: Added File icon component: `.file-icon` draws a sheet with the format from `data-type` on a colored label.
+- eb40bf2: Added `.grid-bento` and `.g-row-*` classes for bento grid layouts, with a demo page and docs.
+- 5301878: Added the `Toggler` plugin, which toggles a class or an attribute on click with `data-bs-toggle="toggler"`.
+- 365ea82: Added a weekly metrics comparison card with a change column to the tables preview page.
+
+### Patch Changes
+
+- 07fa459: Updated card headers, table headers, modal footer and other neutral backgrounds to use the `--tblr-fill-*` tokens.
+- 2609a06: Added a Tabler Flags docs section with `@tabler/flags-*` library pages; `/ui/plugins/flags` now redirects to `/flags/css`.
+- 546946a: Updated the navbar notifications dropdown with avatars, timestamps, unread dots, day groups and a scrollable list.
+- b8622d1: Updated Tabler Icons to v3.50.0.
+
 ## 1.7.5
 
 ### Patch Changes
